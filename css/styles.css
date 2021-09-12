@@ -1,0 +1,103 @@
+:root {
+  --main-color: #212121;
+  --second-color: #757575;
+  --mark-color: #2196f3;
+  --basic-background-color: #ffffff;
+  --second-background-color: #2f303a;
+
+  /* font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif; */
+}
+
+body {
+  background-color: var(--basic-background-color);
+  size: 14px;
+}
+
+section {
+  padding: 94px 0;
+}
+
+.conteiner {
+  width: 1170px;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+  display: flex;
+  margin-right: 93px;
+}
+.logo-black {
+  color: #000;
+}
+.logo-white {
+  color: #ffffff;
+}
+
+.links-nav,
+.links-auth {
+  padding: 32px 0;
+}
+
+.links-nav .link {
+  color: var(--main-color);
+}
+
+.links-auth .link {
+  color: var(--second-color);
+}
+
+.links-nav :hover,
+.links-nav :focus,
+.links-auth :hover,
+.links-auth :focus {
+  color: var(--mark-color);
+}
+/* main */
+
+.hero {
+  background-color: var(--second-background-color);
+}
+.hero-title {
+  color: #ffffff;
+}
+
+button {
+  color: #ffffff;
+  background-color: var(--mark-color);
+}
+
+.sectin-title {
+  color: var(--main-color);
+}
+
+/* benefits */
+
+.benefits .title {
+  color: var(--main-color);
+}
+
+.benefits .text {
+  color: var(--second-color);
+}
+
+.team .title {
+  color: var(--main-color);
+}
+
+.team .position {
+  color: var(--second-color);
+}
+
+footer {
+  background-color: var(--second-background-color);
+  margin: 0 auto;
+}
