@@ -11,6 +11,7 @@ body {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: normal;
+  color: var(--main-color);
 }
 
 /* header */
@@ -79,6 +80,13 @@ body {
   line-height: 1.87;
   letter-spacing: 0.06em;
   color: #ffffff;
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus {
+  color: var(--mark-color);
+  background-color: var(--main-color);
 }
 
 /* benefits */
@@ -88,7 +96,6 @@ body {
   font-size: 36px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  color: var(--main-color);
 }
 
 .benefits-title {
@@ -97,7 +104,6 @@ body {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--main-color);
 }
 
 .benefits-text {
@@ -114,7 +120,6 @@ body {
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: var(--main-color);
 }
 
 .team-position {
@@ -143,6 +148,11 @@ body {
   color: #ffffff;
 }
 
+.address-link:hover,
+.address-link:focus {
+  color: var(--mark-color);
+}
+
 .filter-button {
   font-family: Roboto;
   font-style: normal;
@@ -153,6 +163,12 @@ body {
   letter-spacing: 0.03em;
   color: var(--main-color);
   background-color: #f5f4fa;
+}
+
+.filter-button:hover,
+.filter-button:focus {
+  background-color: var(--mark-color);
+  color: #ffffff;
 }
 
 .examples-title {
